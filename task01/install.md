@@ -1,27 +1,27 @@
 Windows下conda换源学习
-#conda换源
-###查看当前使用源
+# conda换源
+### 查看当前使用源
 ```
 conda config --show-sources
 ```
-###添加指定源
+### 添加指定源
 
 ```
 conda config --add channels 源名称或链接
 ```
-###删除指定源
+### 删除指定源
 
 ```
 conda config --remove channels 源名称或链接
 ```
 
-###恢复默认源
+### 恢复默认源
 
 ```
 conda config --remove-key channels
 ```
 
-###清华源（TUNA）
+### 清华源（TUNA）
 
 ```
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
@@ -30,7 +30,7 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/peterjc123/
 ```
-###中科大源（USTC）
+### 中科大源（USTC）
 ```
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
@@ -39,7 +39,7 @@ conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/msys2/
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/bioconda/
 conda config --add channels https://mirrors.ustc.edu.cn/anaconda/cloud/menpo/
 ```
-###国内源：
+### 国内源：
 ```
 清华：https://pypi.tuna.tsinghua.edu.cn/simple
 阿里云：http://mirrors.aliyun.com/pypi/simple/
